@@ -10,7 +10,7 @@ namespace Classes
     {
         static void doWork()
         {
-            // TODO:
+            Point origin = new Point();
         }
 
         static void Main(string[] args)

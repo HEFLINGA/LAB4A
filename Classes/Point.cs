@@ -10,6 +10,9 @@ namespace Classes
 {
     class Point
     {
-        // TODO:
+        public Point(int x, int y)
+        {
+            Console.WriteLine($"x:{x}, y:{y}");
+        }
     }
 }
