@@ -10,18 +10,22 @@ namespace Classes
 {
     class Point
     {
+        public static int ObjectCount() => objectCount;
+        private static int objectCount = 0;
         private int x, y;
 
         public Point()
         {
             this.x = -1;
             this.y = -1;
+            objectCount++;
         }
 
         public Point(int x, int y)
         {
             this.x = x;
             this.y = y;
+            objectCount++;
         }
 
         public double DistanceTo(Point other)
